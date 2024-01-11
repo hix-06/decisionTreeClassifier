@@ -7,7 +7,11 @@ from IPython.display import Image
 import pydotplus
 
 
-path = r"C:\Users\Ahmed\Downloads\Iris.csv"
+path = r"C:\Users\Ahmed\Downloads\Iris.csv" 
+'''
+I downloaded the same dataset provided in the task on my PC and uploaded it
+from my device due to the shortened link non-compliance.
+'''
 data = pd.read_csv(path)
 
 print(data.head())
